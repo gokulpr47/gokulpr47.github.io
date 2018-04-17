@@ -1,0 +1,20 @@
+.container{
+	display: flex;
+	flex-wrap:wrap;
+}
+
+body{
+	align-items: center;
+	background-image: url(https://images.unsplash.com/photo-1513075529370-abc110314eaf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=837f8974279cb03982e2617aad199937&auto=format&fit=crop&w=500&q=60);
+	background-size: cover;
+}
+
+img{
+	margin: 10px;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+img:hover{
+	transform: scale(1.1);
+}
